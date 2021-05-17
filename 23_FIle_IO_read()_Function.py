@@ -1,0 +1,17 @@
+# File I\O read() Function
+a = open("A_About_Python_Language.txt", "rt")
+print("The content of file 'A_About_Python_Language.txt' is as follow :")
+print(a.read())
+a.close()
+print("----------------------------------------------------------------------------------------------")
+b = open("B_About_C_Language.txt", "rt")
+print("The content of file 'B_About_C_Language.txt' is as follow :")
+for statments in b:
+    print(statments, end="")
+b.close()
+print("\n----------------------------------------------------------------------------------------------")
+c = open("C_About_Java_Language.txt")
+print("The content of file 'C_About_Java_Language.txt' is as follow :")
+print(c.readline(), end="")
+print(c.readline(), end="")
+c.close()

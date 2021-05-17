@@ -1,0 +1,10 @@
+# Arithmetic Operators [+, -, *, /, //, %, **]
+a = int(input("Enter the value of a : "))
+b = int(input("Enter the value of b : "))
+print("a + b = ", a+b)
+print("a - b = ", a-b)
+print("a * b = ", a*b)
+print("a / b = ", a/b)
+print("After division, The quotient is : ", a//b)
+print("After division, The reminder is : ", a % b)
+print("a ^ b = ", a**b)
